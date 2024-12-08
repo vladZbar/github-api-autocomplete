@@ -118,7 +118,7 @@ function fetchRepositories(repoName) {
     `https://api.github.com/search/repositories?q=${repoName}&per_page=5`,
     {
       headers: {
-        Authorization: `token ${token}`,
+        // Authorization: `token ${token}`,
         Accept: "application/vnd.github.v3+json",
       },
     }
