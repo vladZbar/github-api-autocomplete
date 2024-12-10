@@ -1,0 +1,104 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #232222;
+}
+
+.container {
+  width: 763px;
+  height: 561px;
+  margin-top: 50px;
+  box-sizing: border-box;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px 5px #c4ff8a;
+  border-radius: 30px;
+}
+
+.input {
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 10px;
+  box-sizing: border-box;
+  background-color: #232222;
+  box-shadow: 0 0 5px 3px #c4ff8a;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #c4ff8a;
+}
+
+.compliteContainer {
+  width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 0;
+  display: none;
+  margin-bottom: 50px;
+}
+
+.options {
+  height: 30px;
+  background-color: #232222;
+  color: #c4ff8a;
+  box-shadow: 0 0 2px 1px #c4ff8a;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 10px;
+}
+
+.repoContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.repo {
+  max-width: 100%;
+  height: 55px;
+  background-color: #232222;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 2px #c4ff8a;
+  color: #c4ff8a;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.closeContainer {
+  width: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #232222;
+  border: none;
+  transition: 0.5s;
+}
+
+.segment {
+  width: 2px;
+  height: 100%;
+  box-shadow: 0 0 5px 2px #c4ff8a;
+  background-color: #c4ff8a;
+}
+
+.closeContainer:hover {
+  transform: scale(1.2);
+}
+
+.segment--right {
+  transform: rotate(45deg);
+}
+
+.segment--left {
+  transform: rotate(-45deg);
+}
